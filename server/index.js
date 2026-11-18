@@ -3,7 +3,7 @@ import 'dotenv/config'
 import { createServer } from 'node:http'
 import { GoogleGenAI } from '@google/genai'
 
-const PORT = 3001
+const PORT = process.env.PORT || 3001
 const MODEL = 'gemini-3.1-flash-lite'
 
 const apiKey = process.env.GEMINI_API_KEY
@@ -208,7 +208,7 @@ const server = createServer(async (req, res) => {
   }
 })
 
-server.listen(PORT, () => {
-  console.log(`Vaani API listening on http://localhost:${PORT}`)
+server.listen(PORT, '0.0.0.0', () => {
+  console.log(`Vaani API listening on port ${PORT}`)
   console.log(`Gemini configured: ${Boolean(ai)}`)
 })
