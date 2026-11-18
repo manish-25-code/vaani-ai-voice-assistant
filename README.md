@@ -3,7 +3,25 @@
 Vaani is an interruptible, browser-based AI voice assistant designed to explore the engineering challenges of natural human-computer conversations.
 
 Built as an engineering prototype for the **Voice India AI Conversation Fellow** opportunity, Vaani combines a dialogue state machine, browser-based speech interfaces, and Google's Gemini API to support context-aware, multi-intent conversations.
+## 🖥️ Application Preview
 
+Vaani's interface provides a live conversation workspace, AI intent tracking, response-time metrics, and event-level observability.
+
+<p align="center">
+  <img src="assets/vaani-hero.png" alt="Vaani application overview" width="100%">
+</p>
+
+### Payment Status Detection
+
+<p align="center">
+  <img src="assets/vaani-payment-status.png" alt="Vaani detecting a payment status issue" width="100%">
+</p>
+
+### Intent Change — Payment Status to Refund
+
+<p align="center">
+  <img src="assets/vaani-refund-intent-change.png" alt="Vaani handling a change from payment status to refund" width="100%">
+</p>
 ## ✨ Features
 
 ### Conversation Intelligence
